@@ -1,0 +1,21 @@
+{
+  "name":  "nsept/yii2-wizardnav",
+  "description": "Navigation widget for yii-dream-team/yii2-wizard-behavior extension",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "extension", "widget", "step", "wizard", "nav"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nsept",
+      "email": "nsept@ya.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "nsept\\wizardnav\\": ""
+    }
+  }
+}
