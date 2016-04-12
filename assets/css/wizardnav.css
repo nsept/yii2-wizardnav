@@ -11,8 +11,8 @@ ul.nav-wizard {
 ul.nav-wizard:before {
   display: block;
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   top: 46px;
   height: 47px;
   border-top: 1px solid #d4d4d4;
@@ -23,8 +23,8 @@ ul.nav-wizard:before {
 ul.nav-wizard:after {
   display: block;
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   top: 138px;
   height: 47px;
   border-top: 1px solid #d4d4d4;
