@@ -14,10 +14,10 @@ class WizardNavWidget extends \yiidreamteam\wizard\Menu
 
         parent::init();
     }
-    
+
     public function run()
     {
-        $this->widget->options['class'].= ' nav-wizard';
+        array_push($this->widget->options['class'], ' nav-wizard');
         return $this->widget->run();
     }
 }
